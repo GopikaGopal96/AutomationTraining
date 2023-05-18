@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="webelement.SoftAssertEx"/>
+      <class name="dropdown.DropDown"/>
+      <class name="waitcommands.DragAndDrop"/>
+      <class name="actionsclass.MouseHoverEx"/>
+      <class name="dropdown.MultiDropDown"/>
+      <class name="navigation.Navigate"/>
+      <class name="annotation.AnnotationEx"/>
+      <class name="webelement.ElementVsElements"/>
+      <class name="dynamic.DynamicElements"/>
+      <class name="webelement.HardAssert"/>
+      <class name="iframes.Iframe"/>
+      <class name="fileupload.UploadFileAssign"/>
+      <class name="fileupload.FileUpload"/>
+      <class name="annotation.DriverAnnotations"/>
+      <class name="webelement.HandlingWindows"/>
+      <class name="waitcommands.WaitCommands"/>
+      <class name="webelement.AlertEx"/>
+      <class name="testngannotations.TestNgAnnotations"/>
+      <class name="webelement.WebCommands"/>
+      <class name="dropdown.MutliSelect"/>
+      <class name="excelpgm.ExcelPgm"/>
+      <class name="fileupload.FileDownload"/>
+      <class name="formvalidation.FormValidation"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
